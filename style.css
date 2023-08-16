@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  display: flex;
+  place-items: center;
+
+  height: 100vh;
+
+  background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+  
+}
+
+.d{
+  display: none;
+}
+
+#b2{
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1,h2{
+  font-family:'Montserrat', sans-serif;
+  color: #34355B;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding: 0.1rem;
+}
+
+main{
+
+  background-color: #fff;
+
+  border-radius: .5rem;
+
+  text-align: center;
+  
+  margin: 23.5rem auto;
+  padding: 4.8rem 6.4rem 6.4rem;
+
+  width: 42.8rem;
+
+}
+
+
+#p1{
+  font-family: 'DM Sans', sans-serif;
+  margin: 1.4rem auto 2.7rem;
+
+  color: #34355B;
+
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  align-items: center;
+}
+
+.menssage{
+  padding: 1rem;
+
+  background: #E4EDF1;
+
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+}
+
+#p2 {
+  font-family: 'Dancing Script',cursive;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.imagem2{
+  padding: 4.3rem 0;
+}
+
+#b2{
+  padding: 1.6rem;
+
+  background-color:  #FF9500 ;
+  color: #FFF;
+
+  border: 0;
+  border-radius: .4rem;
+
+  /* width: 17.4rem; this makes the button not show text in just one line */
+
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+#img1{
+  animation-name: shake_img1 ;
+  animation-duration: .3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake_img1 {
+  from{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(40deg);
+  }
+
+  to{
+    transform: rotate(0deg);
+  }
+
+}
+
+
+
+.menssage{
+
+  animation: nova_mensagem 4s  1 forwards;
+  position: relative;
+  
+}
+
+@keyframes nova_mensagem{
+  from{
+    transform: scale(0.1);
+    top: 16rem;
+
+  }
+
+  
+  to{
+    transform: scale(1);
+    top: 0px;
+  }
+}

@@ -1,0 +1,212 @@
+Game that diplay a random menssage from a cookie after click on the img
+
+early 14h    end   more than 21h 
+-Structure semântic HTML
+-Animations CSS
+-Js Functions
+-DOM manipulation 
+-Library Js Math()
+-Callback Functions
+-Arrays
+
+events :
+        1:click the img on cookie closed 
+        2:click the button open other cookie
+reacts :
+        1: Animation :shake img 
+           display none to the screen1 
+
+        2: display none to the screen2
+           Animation scale TranslateY mensage 
+           show random mensage
+
+and so just must to swap screen after make the animation 
+        1: make animation on css 
+
+        function Animation1(e){
+        //img shaking
+        //delay 
+        // swap to other screen
+
+        }
+
+        function Animation2(){
+        //img scale and translatey 
+
+        }
+
+        @keyframes
+        animation-name
+        animation-duration
+        animation-delay
+        animation-iteration-count
+        animation-direction
+        animation-timing-function
+        animation-fill-mode
+        animation
+        
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+           
+
+Get Phrases from : https://i.pinimg.com/564x/b7/5b/93/b75b937cd652cb27793b9cd0134a659c.jpg
+
+VERSION 1.0
+      Error: it doesn work
+              const sec1 = document.querySelector(".sec1");
+              const img1 = sec1.document.querySelector("img");
+
+      IN PORTUGUESE LANGUAGE
+          1-A vida trará colsas boas se tiveres paciência.
+          2-Demonstre amor e alegria em todas as oportunidades e verás que a paz nasce dentro
+          3-Não compense na ira o que lhe falta na razão.
+          4-Defeitos e virtudes são apenas dois lados da mesma moeda.
+          5-A maior de todas as torres começa no solo.
+          6-Não há que ser forte. Há que ser flexivel.
+          7-Gente todo dia arruma os cabelos, por que não o coração?
+          8-Há três coisas que jamais voltam; a flecha lançada, a palavra dita e a oportunidade perdida.
+          9-Ajuventude não é uma época da vida, è um estado de espirito.
+          10-Podemos escolher o que semear, mas somos obrigados a colher o que plantamos.
+          11-Dé toda a atenção para a formação dos teus filhos, sobretudo por exemplos de tua própria
+          12-Siga os bons e aprenda com eles.
+          13-Não importa o tamanho da montanha, ela não pode tapar o sol.
+          14-O bom-senso vai mais longe do que muito conhecimento.
+          15-Quem quer colher rosas deve suportar os espinhos.
+          16-São os nossos amigos que nos ensinam as mais valiosas lições.
+          17-Uma iniciativa mal-sucedida não significa o final de tudo. Sempre
+          18-Aquele que se importa com o sentimento dos outros, não é um tolo.
+          19-A adversidade é um espelho que reflete o verdadeiro eu.
+          20-Lamentar aquilo que não temos desperdiçar aquilo que já possuimos.
+          21-Uma bela for é incompleta sem suas folhas.
+          22-Sem o fogo do entusiasmo, não há o calor da vitória.
+          23-Não há melhor negócio que a vida. A gente há obtém a troco de nada.
+          24-O riso è a menor distância entre duas pessoas.
+          25-Você jovem apenas uma vez. Depois precisa inventar outra desculpa.
+          26-É mais fácil conseguir o perdão do que a permissão.
+          27-Os defeitos são mais fortes quando o amor é fraco,
+          28-Amizade e Amor são colsas que podem virar uma so num piscar
+          29-Surpreender e ser surpreendido é o segredo do amor.
+          30-Faça pequenas coisas agora e maiores coisas lhe serão confiadas cada
+          de você.
+          vida.
+          existe uma nova oportunidade.
+          de olhos.
+          dia.
+
+      IN ENGLISH LANGUAGE
+          1-Life will bring good colsas if you have patience.
+          2-show love and joy at every opportunity and you will see that peace is born within
+          3-do not compensate in anger what you lack in reason.
+          4-defects and virtues are just two sides of the same coin.
+          5-the largest of all towers begins on the ground.
+          6-you don't have to be strong. You have to be flexible.
+          7-people fix their hair every day, why not their heart?
+          8-there are three things that never return; the arrow thrown, the word spoken and the opportunity lost.
+          9-Youth is not a time of life, it is a state of mind.
+          10-we can choose what to sow, but we are obliged to reap what we plant.
+          11-give all your attention to the formation of your children, especially by examples of your own
+          12-Follow the good ones and learn from them.
+          13-no matter the size of the mountain, it cannot cover the sun.
+          14-common sense goes further than much knowledge.
+          15-whoever wants to pick roses must endure the Thorns.
+          16-it is our friends who teach us the most valuable lessons.
+          17-an unsuccessful initiative does not mean the end of everything. Always
+          18-He Who cares about the feelings of others, is not a fool.
+          19-adversity is a mirror that reflects the true self.
+          20-regret what we do not have waste what we already have.
+          21-a beautiful for is incomplete without its leaves.
+          22-without the fire of enthusiasm, there is no warmth of victory.
+          23-There is no better business than life. We get it for nothing.
+          24-laughter is the shortest distance between two people.
+          25-you young only once. Then you need to come up with another excuse.
+          26-it is easier to get forgiveness than permission.
+          27-defects are stronger when Love is weak,
+          28-friendship and love are cols that can turn an so in the blink of an eye
+          29-to surprise and be surprised is the secret of love.
+          Do small things now and greater things will be entrusted to you each day.
+          from you.
+          life.
+          there is a new opportunity.
+          eyes.
+          day.
+
+      ERROR : ncaught TypeError: Cannot read properties of undefined (reading 'querySelector')
+              at HTMLImageElement.abrir (script.js:59:17)
+                
+              sec2.document.querySelector("p").innerText =  arrayy[frase_aleatória];
+
+
+      ERROR : script.js:60  Uncaught TypeError: Cannot set properties of null (setting 'innerText')
+              at HTMLImageElement.abrir (script.js:60:15)
+              abrir @ script.js:60
+
+              
+              p.innerText =  arrayy[index_random];
+
+      ERROR : Uncaught TypeError: Cannot set properties of null (setting 'innerText')
+              at HTMLImageElement.abrir (script.js:61:15)
+
+              let text = arrayy[index_random];
+              p.innerText = text;
+
+
+              what i am trying to to : is Modify the value text into the p tag on html using dom manipulation passing per argument a variabel 
+
+              innerText = valiable or just  innerText = "always Strings"
+
+
+              the wrong is sintaxe I WASN'T USING GETELEMENTBYID THE CORRECPARAMETER 
+                    \________, getElementById("#id")    Doesn't need to use  # 
+              the correct is 
+                          \_______,  getElementById("id") 
+
+      ERROR :  The second screen wasn't display none:   to solve 15 minutes
+                cuz before i add to the screen 2 
+                sec2.classList.add('d') 
+                that div alread have a atribue display = flex 
+
+        SOLUTION   and i swap atributes css from the sec2 for the new tag section2
+
+                sec2 
+                        section2
+                        section2
+                sec2
+
+                section2  organize childs 
+                sec2 display none  
+
+
+       ERROR :   The font-family for new mensage wasn possible cuz 
+                  i was putting css atributes to tag p 
+                  but in dom manipulation i not reference p but reference div.menssage
+
+                  let  menssage = document.querySelector(".menssage")
+
+                  let  menssage = document.querySelector(".menssage p")
+
+       ERROR : the button there's no text in just one line 
+
+        this happens cuz i define the width of a button 
+        #b2{
+                /* width: 17.4rem; this makes the button not show text in just one line */
+        }
+
+                
+
+      LEARNINGS: 
+        Build first small parts and testin int before decide to make the biggerst 
+        Response that kind of questions 
+                   _variables and kind of them i need 
+                  / _the path they will throught the js html 
+        WHAT ____/_/_What the events - and the reaction of each them
+
+        LOOK all the code - maybe you are looking to a bug on a place they´rent There
+        Its like what happens when i didnt got it display none to sec2
+
+        MAKE  FIRST what i did on a line this files at 12 to 22
+
+
+
+VERSION 1.1 
+    code more legible
+
+
