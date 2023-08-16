@@ -2,7 +2,7 @@
 Version 1.0   -9h
 # Game that diplay a random menssage from a cookie after click on the img
 ![thisproject](https://github.com/ThiagoMassenoMaciel/Projeto-08-front-end.github.io/blob/main/vid-gif.gif)
-# Link [here](https://thiagomassenomaciel.github.io/Projeto-08-front-end.github.io/)
+# Link to see it [here](https://thiagomassenomaciel.github.io/Projeto-08-front-end.github.io/)
 
 # Tech Used
         :Html
